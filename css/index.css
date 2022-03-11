@@ -1,0 +1,187 @@
+/* ШРИФТ */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=IBM+Plex+Serif:wght@700&family=Rubik+Mono+One&display=swap');
+/* ШРИФТ */
+a {
+				font-family: 'Comfortaa', cursive;
+}
+
+.name {
+				font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+
+h2 {
+				margin-top: 0px;
+				font-size: 200%;
+}
+strong {
+				font-size: 20px;
+}
+
+.topnav {
+				background-color: #262F34;
+				overflow: hidden;
+				box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+				margin-bottom: 30px;
+}
+
+.topnav a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+				transition:all 0.5s ease;
+}
+
+.topnav a:hover {
+				background-color: #F1D3BC;
+				color: black;
+				transition:all 0.5s ease;
+}
+
+.topnav a.active {
+				background-color: #F34A4A;
+				color: white;
+}
+
+.heart {
+				margin-left: 644px;
+				font-size: 10px
+				
+}
+
+body {
+  background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);
+}
+
+.n1 {
+				color: #F34A4A;
+}
+
+.n2 {
+				color: #262F34;
+}
+
+.info {
+				border: 0px solid black;
+				width: 94%;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 0px;
+				display: flex;
+				padding: 10px;
+				border-radius: 10px;
+				background-color: white;
+				box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+				transition:all 0.5s ease;
+				margin-bottom: 60px;
+}
+
+img{
+				width: 28%;
+				height: 28%;
+				border: 5px solid white;
+				border-radius: 50%;				
+				box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+				transition:all 0.5s ease;
+				background-color: white;
+				transition:all 0.5s ease;
+}
+
+img:hover {
+				width: 28%;
+				height: 28%;
+				border: 5px solid #F34A4A;
+				border-radius: 10px;
+				box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+				transition:all 0.5s ease;
+				background-color: #F34A4A;
+}
+
+.form {
+				display: block;
+				margin-left: 20px;
+				border: 0px solid red;
+				width: 100%;
+}
+
+.text_info {
+				font-size: 100%;
+}
+
+.floating-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 180px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin-top: 10px;
+  margin-left: 430px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+.floating-button:hover {
+  background: #F34A4A;
+  box-shadow: 0 15px 20px #F34A4A;
+  color: white;
+  transform: translateY(-7px);
+}
+
+.stra {
+  text-decoration: none;
+  display: inline-block;
+  width: 200px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin-left: 650px;
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: white;
+  background: #F34A4A;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+  border: 0px solid red;
+}
+.stra:hover {
+  background: #F34A4A;
+  box-shadow: 0 15px 20px #F34A4A;
+  color: white;
+  transform: translateY(-7px);
+}
+
+.s1 {
+				display: flex;
+				width: 94%;
+				margin-right: auto;
+				margin-left: auto;
+				font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+
+
+
+/* ЗВЕЗДЫ */
+.checked { 
+				color: orange; 
+}
+/* ЗВЕЗДЫ */

@@ -1,0 +1,233 @@
+/* ШРИФТ */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=IBM+Plex+Serif:wght@700&family=Rubik+Mono+One&display=swap');
+/* ШРИФТ */
+a {
+				font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+				font-family: 'Rubik Mono One', sans-serif;
+				transition:all 0.5s ease;
+}
+
+h1:hover {
+				color: #F34A4A;
+				font-family: 'Rubik Mono One', sans-serif;
+				transition:all 0.5s ease;
+}
+
+
+
+h2 {
+				margin-top: 0px;
+				font-size: 200%;
+}
+strong {
+				font-size: 20px;
+}
+
+.topnav {
+				background-color: #262F34;
+				overflow: hidden;
+				box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+				margin-bottom: 30px;
+}
+
+.topnav a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+				transition:all 0.5s ease;
+}
+
+.topnav a:hover {
+				background-color: #F1D3BC;
+				color: black;
+				transition:all 0.5s ease;
+}
+
+.topnav a.active {
+				background-color: #F34A4A;
+				color: white;
+}
+
+.heart {
+				margin-left: 564px;
+				font-size: 10px
+				
+}
+
+body {
+  background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);
+}
+
+.vhod {
+				border: 0px solid black;
+				width: 94%;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 0px;
+				display: flex;
+				padding: 10px;
+				border-radius: 10px;
+				background-color: white;
+				box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+				transition:all 0.5s ease;
+				margin-bottom: 60px;
+}
+
+.stra {
+  text-decoration: none;
+  display: inline-block;
+  width: 145px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin-left: 790px;
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: white;
+  background: #F34A4A;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+  border: 0px solid red;
+}
+.stra:hover {
+  background: #F34A4A;
+  box-shadow: 0 15px 20px #F34A4A;
+  color: white;
+  transform: translateY(-7px);
+}
+
+
+
+
+body {
+  background-color:transparent;
+}
+
+.registration-cssave{
+  width: ;
+}
+
+.registration-cssave form {
+  max-width:780px;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:50px 70px;
+  border-radius:10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  background-color:#fff;
+}
+
+.registration-cssave form h3 {
+  font-weight:bold;
+  margin-bottom:30px;
+}
+
+.registration-cssave .item {
+  border-radius:10px;
+  margin-bottom:25px;
+  padding:10px 20px;
+}
+
+.registration-cssave .create-account {
+  border-radius:30px;
+  padding:10px 20px;
+  font-size:18px;
+  font-weight:bold;
+  background-color:#3f93ff;
+  border:none;
+  color:white;
+  margin-top:20px;
+}
+
+@media (max-width: 576px) {
+  .registration-cssave form {
+    padding:50px 20px;
+  }
+}
+
+.form-control {
+				border: 3px solid #F34A4A;
+				outline:none;
+				transition:all 0.5s ease;
+				
+}
+
+.form-control:hover {
+				border: 3px solid #262F34;
+				transition:all 0.5s ease;
+}
+
+h1 {
+				margin-left: 240px;
+				margin-right: auto;
+}
+
+.form-group {
+				margin-left: 275px;
+				margin-right: auto;
+}
+
+.btn-vhod {
+		text-decoration: none;
+		margin-left: 5px;
+  width: 220px;
+  height: 45px;
+  border: 0px solid red;
+  line-height: 45px;
+  border-radius: 45px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: black;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+
+.btn-vhod:hover {
+		background: #F34A4A;
+  box-shadow: 0 15px 20px #F34A4A;
+  color: white;
+  transform: translateY(-7px);
+}
+
+input {
+				box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+}
+
+
+a {
+				text-decoration: none;
+				color: black;
+				font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+				text-decoration: none;
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+}
+
+.q {
+				font-family: 'Comfortaa', cursive;
+}
+
+.q:hover {
+				font-family: 'Comfortaa', cursive;
+}
